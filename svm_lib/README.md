@@ -21,7 +21,7 @@ save the return value: sess,train,loss,x,y_label, you will use them as input of 
 You could build several modes in step 2 at the same time, then before trainning, you should run:
 sess=svm.init()
 
-4.training:
+4.training
 the argument is like the following:
 train(self,sess,train,loss,x,y_label,name)
 Use the thing you have saved in step 2 as input.
