@@ -15,7 +15,6 @@ gaussian_svm_bi_class(self,gamma_val=-50.0)  # gaussian svm classificating two c
 sigmod_svm_bi_class(self,gamma_val=1,r=1)  # sigmod svm classificating two classes
 linear_svr(self)  # linear svr, used for regression
 multi_class(self,select)  # If you wants to have multi-class classification, run this first, it will do the pre-procession to turn it to bio class case.
-
 save the return value: sess,train,loss,x,y_label, you will use them as input of training function.
 
 3. Initialize the session
@@ -41,4 +40,3 @@ svm=svm(x,y,featurn_num)
 train,loss,x,y_label,_=svm.gaussian_svm_bi_class() #if you have multiple models to train, build your model like this 
 sess=svm.init()
 svm.train(sess,train,loss,x,y_label,"gaussian_svm_bi_class")
-# the file you have trained will be saved at the dir you spec
