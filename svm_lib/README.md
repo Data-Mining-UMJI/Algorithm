@@ -1,7 +1,9 @@
 Usage:
 ====
+
 The usage of svm_lib splits into the following steps <br> 
-#1. Initialization & Setting<br> 
+
+1. Initialization & Setting<br> 
 ==
 import this file. <br> 
 Then you are able to use the class svm(), use svm(arguments) to initial your svm models. <br> 
