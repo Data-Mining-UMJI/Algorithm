@@ -1,11 +1,13 @@
 Usage:
-The usage of svm_lib splits into the following steps 
+====
+The usage of svm_lib splits into the following steps <br> 
 1. Initialization & Setting
-import this file. 
-Then you are able to use the class svm(), use svm(arguments) to initial your svm models. 
-The arguments includes: data,index,feature_num,iteration,batch_size,print_step,save_step.
-Here are some arguments with initial values:
-iteration=1000,batch_size=8,print_step=100,save_step=1000
+----
+import this file. <br> 
+Then you are able to use the class svm(), use svm(arguments) to initial your svm models. <br> 
+The arguments includes: data,index,feature_num,iteration,batch_size,print_step,save_step.<br> 
+Here are some arguments with initial values:<br> 
+iteration=1000,batch_size=8,print_step=100,save_step=1000<br> 
 
 2. Bulid the model
 This library supports several classification methods with different kernel and support multiple classes.
