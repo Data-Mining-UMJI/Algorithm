@@ -23,7 +23,7 @@ sess=svm.init()
 
 4.training
 the argument is like the following:
-train(self,sess,train,loss,x,y_label,name)
+train(self,sess,train,loss,x,ylabel,name)
 Use the thing you have saved in step 2 as input.
 
 5. Features
